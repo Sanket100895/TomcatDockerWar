@@ -8,11 +8,6 @@
   <name>JenkinsWar Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <reporting>
-    
-  <properties>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
-  </properties>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -24,6 +19,11 @@
         </plugin>
     </plugins>
 </reporting>
+  
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
 
   <dependencies>
     <dependency>
