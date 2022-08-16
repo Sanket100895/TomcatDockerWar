@@ -25,7 +25,7 @@ stage("Docker build") {
      }
 }
 
-stage("Deploy to staging") {
+stage("Deploy or created tomcat container") {
      steps {
           
           sh "docker stop \$(docker ps -qa)"
