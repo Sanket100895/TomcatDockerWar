@@ -19,18 +19,7 @@
         </plugin>
     </plugins>
 </reporting>
-  <distributionManagement>
-  <repository>
-         <id>releases</id>
-         <!-- Update the url of nexus releases URL -->
-         <url>http://18.217.148.77:8081/repository/maven-releases/</url>
- </repository>
- <snapshotRepository>
-         <id>snapshots</id>
-         <!-- Update the url of nexus snapshot URL -->
-         <url>http://18.217.148.77:8081/repository/maven-snapshots/</url>
- </snapshotRepository>
-</distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
